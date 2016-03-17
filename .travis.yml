@@ -1,0 +1,22 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  matrix:
+    - DOCKERFILE="1.5"
+    - DOCKERFILE="1.6"
+    - DOCKERFILE="1.7"
+    - DOCKERFILE="2.0"
+    - DOCKERFILE="2.1"
+    - DOCKERFILE="2.2"
+
+before_script:
+  - docker version
+
+script:
+  - docker build -t ${DOCKERFILE} ./${DOCKERFILE}
+
+after_script:
+  - docker images
