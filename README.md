@@ -10,5 +10,5 @@ Version | Tags | Dockerfile
 2.0 | `2.0` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/Dockerfile)
 2.1 | `2.1` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/apache/Dockerfile)
 2.2 | `2.2`, `2`, `latest` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/fpm/Dockerfile)
-[![drupaldocker/elasticsearch](https://badge.imagelayers.io/drupaldocker/elasticsearch:latest.svg)](https://imagelayers.io/?images=drupaldocker/elasticsearch:1.5,drupaldocker/elasticsearch:1.6,drupaldocker/elasticsearch:1.7,drupaldocker/elasticsearch:2.0,drupaldocker/elasticsearch:2.1,drupaldocker/elasticsearch:2.2)
+
 
