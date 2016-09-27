@@ -10,5 +10,3 @@ Version | Tags | Dockerfile
 2.0 | `2.0` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/Dockerfile)
 2.1 | `2.1` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/apache/Dockerfile)
 2.2 | `2.2`, `2`, `latest` | [Dockerfile](https://github.com/drupal-docker/elasticsearch/blob/master/5.5/fpm/Dockerfile)
-
-
