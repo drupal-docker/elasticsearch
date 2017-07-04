@@ -12,6 +12,7 @@ env:
     - DOCKERFILE="2.1"
     - DOCKERFILE="2.2"
     - DOCKERFILE="2.3"
+    - DOCKERFILE="2.4"
 
 before_script:
   - docker version
